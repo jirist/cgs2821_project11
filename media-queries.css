@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/* CSS document by Jiri Stanc, October 20, 2017 */
+
+
+@media screen and (max-width: 1200px) {
+    
+        html {font-size: 1em;}
+    
+        .container {width: 100%;}
+        
+        #splash {height: 875px;}
+        
+        #brands, #video {background:#f0e7db;}
+        .parallax {background-color: transparent;}
+        
+        #video {padding-bottom:100px;}
+        
+        #video figure {display: block; width:100%; float: none;}
+        #video iframe {display: block; width:80%; margin-left: auto; margin-right: auto;}
+  
+}
+
+
+
+@media screen and (max-width: 989px) {
+        
+        #splash {height: 748px;	background-size: auto 748px;}
+        #title-page {padding-top:150px;}
+        #title-page h1 {font-size: 3.5rem; line-height: 4.85rem;}
+        
+        
+        
+        #brands .flex-container,
+        #guide .flex-container,
+        #guide .flex-container-table {flex-direction: column; margin-bottom:0; width: 80%; margin-left: auto; margin-right: auto;}
+        
+        #brands .flex-item {
+                width:100%;
+                min-width: 100%;
+                min-height:150px;
+                margin: 10px 0;
+                background-color: #FAF7F3;
+                color: #292017;
+                padding: 15px 15px 30px 15px;
+        }
+        #brands .flex-container:first-of-type .flex-item:first-of-type {margin-top:0;}
+        #brands .flex-container:last-of-type .flex-item:last-of-type {margin-bottom:0;}
+        
+        #guide .flex-item {width: 100%; border-left:none; padding: 15px; margin:10px 0; background-color: #f0e7db;}
+        #guide .flex-item:last-of-type {border-right:none;}
+        #guide .flex-item h4 {border-bottom:1px solid #DB8A2E;}
+        
+        #guide .flex-container .flex-item:first-of-type {margin-top:0;}
+        #guide .flex-container .flex-item:last-of-type {margin-bottom:0;}
+        
+        #guide .flex-item-table {width:100%; margin:10px 0;}
+        #guide .flex-item-table:first-of-type {margin-top:0;}
+        #guide .flex-item-table:last-of-type {margin-bottom:0;}
+        
+        
+        #guide ul {margin-top: 1rem;}
+              
+        #brands .flex-item li {float:left; width:155px;}
+        
+        #guide .flex-item li {float:left; width:230px;}
+        #guide .flex-item-table li {float:left; width:230px;}
+        
+        
+        .half_container {width:100%;}
+        .half_container:first-of-type {padding-bottom:50px;}
+        
+        #references .half_container:first-of-type > div {
+                box-shadow: inset 0px 0px 50px 0px rgba(219, 138, 46, 0.1);
+                padding: 15px;
+                margin: 0 auto 20px auto;
+                width:80%;
+        }
+        #references .half_container:first-of-type > div:last-of-type {margin-bottom:0;}
+        #references > .container > .half_container:first-of-type > div p {margin-top:0;}
+    
+    
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+        
+        #splash {height: 542px;	background-size: auto 542px;}
+        #title-page {padding-top:100px;}
+        #title-page h1 {font-size: 2.5rem; padding-bottom: 1.5rem; line-height: 3.55rem;}
+        #title-page h3 {font-size: 1.5rem; line-height: 1.3rem;}
+        
+        #brands .flex-container,
+        #guide .flex-container,
+        #guide .flex-container-table {width: 90%;}
+                
+        #overview figure {display: block; width:100%;}
+        #overview img {width: 100%; max-width: 450px; height: auto;}
+        
+        #overview .container > div:first-of-type > figure,
+        #overview .container > div:nth-of-type(3) > figure {margin-right:0;}
+        
+        #overview .container > div:nth-of-type(2) > figure,
+        #overview .container > div:nth-of-type(4) > figure {float:left; margin-left:0;}
+        
+        #overview .container > div:last-of-type > figure {margin-bottom:1rem;}
+        
+        #video figure {display: block; width: 100%; max-width: 560px;}
+        #video figure:first-of-type {margin-right:0;}
+        #video iframe {width:100%;}
+        
+        #references .half_container:first-of-type > div {width:90%;}
+        #references figure {margin-right:0;}
+    
+    
+}
+
+
+
+@media screen and (max-width: 480px) {
+        
+        #splash {height: 340px; background-size: auto 340px;}
+        #title-page {padding-top:75px;}
+        #title-page h1 {font-size: 2rem; padding-bottom: 1.5rem; line-height: 2.55rem;}
+        #title-page h3 {font-size: 1.1rem; line-height: 1rem;}
+        
+        #brands .flex-container,
+        #guide .flex-container,
+        #guide .flex-container-table {width: 100%;}
+        
+        #references .half_container:first-of-type > div {width:100%;}
+        
+        #references img,
+        #overview img {width: 100%; height: auto;}
+        
+        #brands .flex-item li,
+        #guide .flex-item li,
+        #guide .flex-item-table li {width:100%;}
+        
+        ul#menu li {line-height: 45px;}
+        
+        ul#menu li a.button {font-size: 0.9rem;}
+        
+        table.color_wheel {width:100%;}
+    
+    
+    
+    
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+        
+        h2 {font-size:1.6rem;}
+        h3 {font-size:1.3rem;}
+        
+        section, .parallax {padding-top: 75px; padding-bottom: 75px;}
+        #video {padding-bottom:75px;}
+        
+        .container {padding: 0 20px;}
+        
+        
+}
