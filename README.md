@@ -1,5 +1,5 @@
 # cgs2821_project11
-front-end framework
+responsive design
 
 
 https://jirist.github.io/cgs2821_project11/
